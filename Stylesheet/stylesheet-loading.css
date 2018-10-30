@@ -1,0 +1,229 @@
+*:hover{
+    cursor: none;
+
+}
+body {
+    background-color:#bbb;
+    position: fixed;
+    margin-left: 500px;
+}
+
+#button1 {
+    background-color: #333;
+    border: 1px solid #ff8d00;
+    width: 100px;
+    height: 100px;
+}
+
+#button1:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+video {
+    top: 0;
+    bottom: 500px;
+    overflow: visible;
+}
+
+.circle {
+    background-color: transparent;
+    border-bottom: #333 solid 1px;
+    border-top: #333 solid 1px;
+    border-left: #bbb solid 1px;
+    border-right: #bbb solid 1px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-right: 50%;
+    margin-left: 200px;
+    margin-bottom: 500px;
+    float: left;
+    animation: SpinCircleYellow 1s infinite;
+}
+
+.circle2 {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 75%;
+    padding: auto;
+    border-bottom: #bbb solid 1px;
+    border-top: #bbb solid 1px;
+    border-left: #ff8d00 solid 1px;
+    border-right: #ff8d00 solid 1px;
+   
+    animation: SpinCircle2Yellow 1s infinite;
+}
+.Loading {
+    color: #ff8d00;
+    margin-right: 50%;
+    margin-left: 175px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    width: 150px; 
+    padding: 10px;
+    font-size: 30px;
+    border:solid #333 1px ;
+}
+
+.L {
+    color: #bbb;
+    animation-name: L;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.o {
+    color: #bbb;
+    animation-name: o;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.a {
+   color: #bbb; 
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.d {
+   color: #bbb; 
+    animation-name: d;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.i {
+    color: #bbb;
+    animation-name: i;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.n {
+   color: #bbb;
+    animation-name: n;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.g {
+   color: #bbb; 
+    animation-name: g;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes L {
+    0%{color: #ff8d00;}
+    10%{}
+    20%{}
+    30%{}
+    40%{color: #333333;}
+    50%{}
+    60%{}
+    70%{}
+    80%{}
+    90%{}
+    100%{}
+}
+
+@keyframes o {
+    0%{}
+    10%{color: #ff8d00;}
+    20%{}
+    30%{}
+    40%{}
+    50%{color: #333;}
+    60%{}
+    70%{}
+    80%{}
+    90%{}
+    100%{}
+}
+
+@keyframes a {
+    0%{}
+    10%{}
+    20%{color: #ff8d00;}
+    30%{}
+    40%{}
+    50%{}
+    60%{color: #333;}
+    70%{}
+    80%{}
+    90%{}
+    100%{}
+}
+
+@keyframes d {
+    0%{}
+    10%{}
+    20%{}
+    30%{color: #ff8d00;}
+    40%{}
+    50%{}
+    60%{}
+    70%{color: #333;}
+    80%{}
+    90%{}
+    100%{}
+}
+
+@keyframes i {
+    0%{}
+    10%{}
+    20%{}
+    30%{}
+    40%{color: #ff8d00;}
+    50%{}
+    60%{}
+    70%{}
+    80%{color: #333;}
+    90%{}
+    100%{}
+}
+
+@keyframes n {
+    0%{}
+    10%{}
+    20%{}
+    30%{}
+    40%{}
+    50%{color: #ff8d00;}
+    60%{}
+    70%{}
+    80%{}
+    90%{color: #333;}
+    100%{}
+}
+
+@keyframes g {
+    0%{}
+    10%{}
+    20%{}
+    30%{}
+    40%{}
+    50%{}
+    60%{color: #ff8d00;}
+    70%{}
+    80%{}
+    90%{}
+    100%{color: #333;}
+}
+
+@keyframes SpinCircleYellow {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+
+@keyframes SpinCircle2Yellow {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(-720deg)}
+}

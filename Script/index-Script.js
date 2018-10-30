@@ -1,3 +1,4 @@
-document.getElementById("Contact").onclick = function () {
-        location.href = "contact.html";
-    };
+function indexToContact()
+{
+    window.location="contact.html";
+}
