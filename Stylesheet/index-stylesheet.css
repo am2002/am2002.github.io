@@ -135,7 +135,9 @@ li:hover{
     margin-top: 10px;
     border-bottom: solid black 2px;
     border-top: solid black 2px;
-    background-image: url(../Pictures/MetalBackground.jpg);
+    background-image: url(../Pictures/code1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .FotoSchoolBanner{
     width: 100%;
