@@ -52,7 +52,7 @@ img{
 }
 .Technovium:hover{
     color:#eee;
-    cursor: pointer;
+    cursor: default;
 
     padding-bottom: 0px;
 }
@@ -82,14 +82,14 @@ img{
     border-bottom: solid 5px #ff8b00;
 }
 
-#NavHome{
+#Home{
     background-color: #ff8b00;
     transition: 0.5s;
     border-bottom: #ff8b00 solid 5px;
     padding-left: 5px;
     padding-right: 10px;
 }
-#NavHome:hover{
+#Home:hover{
     background-color: #ff8b00;
     opacity: 1;
     border-top-left-radius: 15%;
