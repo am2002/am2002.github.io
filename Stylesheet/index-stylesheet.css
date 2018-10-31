@@ -153,7 +153,7 @@ img{
     height: 400px;
     float: right;
     margin-right: 20px;
-    margin-top: 80px;
+    margin-top: 40px;
     border: solid 5px #ff8b00;
     margin-bottom: 20px;
     transition:0.5s;
@@ -168,7 +168,7 @@ img{
     height: 250px;
     float: left;    
     background-color: #eeeeee;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 100px;
     border: solid 5px #ff8b00;
     transition: 0.5s;
@@ -382,6 +382,13 @@ img{
     -ms-user-select: none;
     user-select: none;
 }
+textarea:hover{
+    cursor: default;
+}
+
+
+
+
 @media only screen and (max-width: 400px){
     ul li{
         display: none;
