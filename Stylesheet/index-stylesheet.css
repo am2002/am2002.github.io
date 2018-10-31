@@ -88,6 +88,7 @@ img{
     border-bottom: #ff8b00 solid 5px;
     padding-left: 5px;
     padding-right: 10px;
+    color: #fff;
 }
 #Home:hover{
     background-color: #ff8b00;
@@ -229,6 +230,9 @@ img{
     margin-left: 5px;
     margin-top:5px;
 }
+.DemoImg:hover{
+    cursor: pointer;
+}
 .Tekst2{
     height: 100%;
     width: 69%;
@@ -281,6 +285,9 @@ img{
     background-color:#ddd;
     border:none;
     resize:none;
+    text-align: left;
+    font-family: monospace;
+    font-size: 15px;
 }
 .TextArea2{
     width: 100%;

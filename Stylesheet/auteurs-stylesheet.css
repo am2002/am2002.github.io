@@ -89,6 +89,7 @@ img{
     border-left: 3px solid #ff8d00;
     border-right: 10px solid #ff8d00;
     padding-right: 15px;
+    color: #fff;
 }
 #Auteurs:hover{
     background-color: #ff8b00;
@@ -123,10 +124,11 @@ li:hover{
 .Content{
     width: 100%;
     height: 750px;
+    margin-top: 25px;
 }
 .Jip{
     height: 100%;
-    width: 50%;
+    width: 49.25%;
     float: left;
     background-color: #eee;
 }
@@ -143,27 +145,42 @@ li:hover{
     width: 100%;
     background-color: #eee;
     float: left;
-    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+.JipTekst{
+    font-family: monospace;
+    font-size: 14px;
+}
+.MiddenLijn{
+    width: 0.5%;
+    height: 100%;
+    background-color: #ff8d00;
+    float: left;
 }
 .Arno{
-    margin-top: 0;
     height: 100%;
-    width: 50%;
+    width: 49.25%;
     float: left;
-    background-color: blue;
+    background-color: #eee;
 }
 .BovenArno{
     height: 20%;
     width: 20%;
-    background-color: salmon;
+    background-image: url(../Pictures/Arno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
     margin-left: 40%;
     margin-right: 40%;
+    border: solid 4px #ff8d00;
+    border-radius: 50%;
 }
 .OnderArno{
     height: 80%;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #eee;
     float: left;
 }
 

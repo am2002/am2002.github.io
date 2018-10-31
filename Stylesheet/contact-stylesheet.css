@@ -79,7 +79,7 @@ body{
     border-right: 3px solid #ff8d00;
     padding-right: 10px;
     width: 50px;
-    color: white;
+    color: #fff;
 }
 #Contact:hover{
     background-color: #ff8b00;

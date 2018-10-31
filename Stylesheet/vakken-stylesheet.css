@@ -89,6 +89,7 @@ img{
     border-left: 3px solid #ff8d00;
     border-right: 3px solid #ff8d00;
     padding-right: 15px;
+    color: #fff;
 }
 #Vakken:hover{
     background-color: #ff8b00;
