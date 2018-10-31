@@ -21,6 +21,9 @@ img{
     border-bottom: solid 5px #ff8b00;
     margin-bottom: 0px;
 }
+.MenuMobile{
+    display: none;
+}
 .logo {
     color:#666;
     float: right;
@@ -371,8 +374,12 @@ img{
     user-select: none;
 }
 @media only screen and (max-width: 400px){
-    .header{
+    ul li{
         display: none;
+    }
+    .header{
+        margin-top: 0px;
+        position: absolute;
     }
     .banner{
         display: none;
@@ -391,7 +398,7 @@ img{
     }
     
     .Maps{
-        display: none;
+        margin-left: 20px;
     }
     .Tekst1{
         display: none;
@@ -405,12 +412,16 @@ img{
     .Tekst4{
         display: none;
     }
-    .Copyright{
-        display: none;  
+    .Copyright{ 
+        margin-top: 12px;
+        margin-bottom: 2px;
     }
     .footer{
-        background-color: #eee;
-        border:none;
+        background-color: #ccc;
+        border-top: 2px solid #ff8d00;
+        border-bottom: 50px solid #ccc;
+        margin-bottom: 0px;
+        margin-top: 50%;
     }
     .MailIcon{
         display: none;
@@ -418,5 +429,20 @@ img{
     .Twitter{
         display: none;
     }
-    .nav
+    .MenuMobile{
+        height: 50px;
+        width: 100px;
+        display: block;
+        background-color: #ccc;
+        border: solid 2px #ff8d00;
+        font-size: 20px;
+        font-family: monospace;
+        color: #333;
+        margin-bottom: 10px;
+        float: clear;
+        margin-top: 20px;
+        padding: 5px;
+        margin-left: 5px;
+        
+    }
 }
