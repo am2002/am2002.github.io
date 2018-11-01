@@ -207,7 +207,7 @@ li:hover{
     .DemoImg3{
         display: none;
     }
-    
+
     .Maps{
         margin-left: 20px;
     }
@@ -223,7 +223,7 @@ li:hover{
     .Tekst4{
         display: none;
     }
-    .Copyright{ 
+    .Copyright{
         margin-top: 12px;
         margin-bottom: 2px;
     }
@@ -254,7 +254,7 @@ li:hover{
         margin-top: 20px;
         padding: 5px;
         margin-left: 5px;
-        
+
     }
 }
 
@@ -289,19 +289,18 @@ li:hover{
     height: 50%;
     width: 50%;
     float: left;
-    border: solid 5px #ff8d00;
-    transition: 0.5s;
 }
-.LinksBovenBoven:hover{
+.LinksBoven img{
+  border: solid 5px #ff8d00;
+  transition: 0.5s;
+}
+.LinksBovenBoven img:hover{
     border-radius: 50%;
     overflow: hidden;
 }
 .DavorFoto{
     height: 100%;
     width: 100%;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
 }
 .LinksBovenOnder{
     height: 50%;
@@ -323,17 +322,18 @@ li:hover{
     height: 50%;
     width: 50%;
     float: left;
-    border: solid 5px #ff8d00;
-    transition: 0.5s;
 }
-.MiddenBovenBoven:hover{
+.MiddenBoven img{
+  border: solid 5px #ff8d00;
+  transition: 0.5s;
+}
+.MiddenBovenBoven img:hover{
     border-radius: 50%;
     overflow: hidden;
 }
 .JaraFoto{
     height: 100%;
     width: 100%;
-    border-radius: 50%;
 }
 .MiddenBovenOnder{
     height: 50%;
@@ -355,17 +355,18 @@ li:hover{
     height: 50%;
     width: 50%;
     float: left;
-    border: solid 5px #ff8d00;
-    transition: 0.5s;
 }
-.RechtsBovenBoven:hover{
+.RechtsBoven img{
+  border: solid 5px #ff8d00;
+  transition: 0.5s;
+}
+.RechtsBovenBoven img:hover{
     border-radius: 50%;
     overflow: hidden;
 }
 .YouriFoto{
     height: 100%;
-    width: 100%;
-    border-radius: 50%;
+    width: 100%;;
 }
 .RechtsBovenOnder{
     height: 50%;
@@ -394,6 +395,8 @@ li:hover{
   height: 50%;
   width: 50%;
   float: left;
+}
+.Midden img{
   border: solid 5px #ff8d00;
   transition: 0.5s;
 }
@@ -406,14 +409,13 @@ li:hover{
   font-family:cursive;
   padding-top: 20px;
 }
-.LinksMiddenBoven:hover{
+.Midden img:hover{
     border-radius: 50%;
     overflow: hidden;
 }
 .ErikFoto {
   height: 100%;
   width: 100%;
-  border-radius: 50%;
 }
 .MiddenMidden{
     width: 30%;
@@ -426,17 +428,14 @@ li:hover{
   height: 50%;
   width: 50%;
   float: left;
-  border: solid 5px #ff8d00;
-  transition: 0.5s;
 }
-.MiddenMiddenBoven:hover{
+.MiddenMiddenBoven img:hover{
     border-radius: 50%;
     overflow: hidden;
 }
 .HenkFoto{
   height: 100%;
   width: 100%;
-  border-radius: 50%;
 }
 .MiddenMiddenOnder{
   height: 50%;
@@ -458,8 +457,6 @@ li:hover{
   height: 50%;
   width: 50%;
   float: left;
-  border: solid 5px #ff8d00;
-  transition: 0.5s;
 }
 .RechtsMiddenOnder{
   height: 50%;
@@ -475,14 +472,13 @@ li:hover{
     height: 100%;
     float: left;
 }
-.RechtsMiddenBoven:hover{
+.RechtsMiddenBoven img:hover{
     border-radius: 50%;
     overflow: hidden;
 }
 .JetFoto{
   height: 100%;
   width: 100%;
-  border-radius: 50%;
 }
 
 .LinksOnder{
@@ -505,14 +501,13 @@ li:hover{
   font-family:cursive;
   padding-top: 20px;
 }
-.MiddenOnderBoven:hover{
+.MiddenOnderBoven img:hover{
     border-radius: 50%;
     overflow: hidden;
 }
 .MarcoFoto {
   height: 100%;
   width: 100%;
-  border-radius: 50%;
 }
 .MiddenOnder{
     width: 30%;
@@ -525,6 +520,8 @@ li:hover{
   height: 50%;
   width: 50%;
   float: left;
+}
+.Onder img{
   border: solid 5px #ff8d00;
   transition: 0.5s;
 }
