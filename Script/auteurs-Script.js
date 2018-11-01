@@ -6,7 +6,7 @@ function ToIndex()
 
 function ToVakken()
 {
-    window.location="vakken.html";
+   console.log('helllo'); window.location="vakken.html";
 }
 
 function ToLeraren()
@@ -22,4 +22,11 @@ function ToAuteurs()
 function ToContact()
 {
     window.location="contact.html";
+}
+
+function hellotest()
+{
+    var d = document.getElementById("ResponsiveMenu").value;
+    console.log(d);
+     window.location=d+".html";
 }

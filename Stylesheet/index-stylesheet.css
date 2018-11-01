@@ -200,6 +200,7 @@ img{
     background-color:#eee;
     margin-top: 5px;
     float: left;
+    cursor: pointer;
 }
 .Mid2{
     width: 100%;
@@ -298,6 +299,9 @@ img{
     background-color:#ddd;
     border:none;
     resize:none;
+    text-align: left;
+    font-family: monospace;
+    font-size: 15px;
 }
 .TextArea3{
     width: 100%;
@@ -306,6 +310,9 @@ img{
     background-color:#ddd;
     border:none;
     resize:none;
+    text-align: left;
+    font-family: monospace;
+    font-size: 15px;
 }
 .TextArea4{
     width: 100%;
@@ -314,6 +321,9 @@ img{
     background-color:#ddd;
     border:none;
     resize:none;
+    text-align: left;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 

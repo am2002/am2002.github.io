@@ -20,12 +20,12 @@
             <li id="Auteurs" onclick="ToAuteurs()">Auteurs</li> 
             <li id="Contact" onclick="ToContact()">Contact</li> 
         </ul>
-        <select class="MenuMobile">
-            <option value="Home" class="DropDown-Menu">Home</option>
-            <option value="item2">Vakken</option>
-            <option value="item3">leraren</option>
-            <option value="item4">Auteurs</option>
-            <option value="Contact" onclick="indexToContact()">
+        <select class="MenuMobile" onChange="hellotest()" id="ResponsiveMenu">
+            <option value="index" class="DropDown-Menu" >Home</option>
+            <option value="vakken" >Vakken</option>
+            <option value="leraren" >leraren</option>
+            <option value="auteurs" >Auteurs</option>
+            <option value="contact" >
                 Contact
             </option>
         </select>
