@@ -34,6 +34,9 @@ function ToContact()
 }
 function ToSOM()
 {
-    window.location="SportOpMaat.html";
-    console.log('pizza')
+    window.location="SportOpMaat.html";s
+}
+function ToTechnovium()
+{
+    window.location="Technovium.html";
 }
