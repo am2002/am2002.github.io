@@ -118,6 +118,286 @@ li:hover{
     padding-bottom: 0px;
 }
 
+    
+
+.Boven{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: blue;
+    overflow: Hidden;
+}
+.Midden{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: orange;
+    overflow: Hidden;
+    margin-top: 20px;
+}
+.Onder{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: #00ff6c;
+    margin-top: 20px;
+    overflow: Hidden;
+}
+.LinksBoven{
+    width: 30%;
+    height: 100%;
+    background-color: purple;
+    float: left;
+}
+.LinksBovenBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    float: left;
+    border: solid 5px #ff8d00;
+    transition: 0.5s;
+}
+.LinksBovenBoven:hover{
+    border-radius: 50%;
+}
+.HtmlIcon{
+    height: 80%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.LinksBovenOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+    text-align: center;
+    font-size:20px;
+    font-family:cursive;
+    padding-top: 20px;
+}
+.MiddenBoven{
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+    float: left;
+}
+.MiddenBovenBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    float: left;
+    border: solid 5px #ff8d00;
+    transition: 0.5s;
+}
+.MiddenBovenBoven:hover{
+    border-radius: 50%;
+}
+.CssIcon{
+    height: 80%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.MiddenBovenOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+    text-align: center;
+    font-size:20px;
+    font-family:cursive;
+    padding-top: 20px;
+}
+.RechtsBoven{
+    width: 30%;
+    height: 100%;
+    background-color: lime;
+    float: left;
+}
+.RechtsBovenBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    float: left;
+    border: solid 5px #ff8d00;
+    transition: 0.5s;
+}
+.RechtsBovenBoven:hover{
+    border-radius: 50%;
+}
+.JsIcon{
+    height: 80%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.RechtsBovenOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+    text-align: center;
+    font-size:20px;
+    font-family:cursive;  
+    padding-top: 20px;
+}
+.TussenVakBoven{
+    width: 5%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+
+.LinksMidden{
+    width: 30%;
+    height: 100%;
+    background-color: palegreen;
+    float: left;
+}
+.LinksMiddenBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: darkred;
+    float: left;
+}
+.LinksMiddenOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+}
+.MiddenMidden{
+    width: 30%;
+    height: 100%;
+    background-color: coral;
+    float: left;
+}
+.MiddenMiddenBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: darkred;
+    float: left;
+}
+.MiddenMiddenOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+}
+.RechtsMidden{
+    width: 30%;
+    height: 100%;
+    background-color: cyan;
+    float: left;
+}
+.RechtsMiddenBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: darkred;
+    float: left;
+}
+.RechtsMiddenOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+}
+.TussenVakMidden{
+    width: 5%;
+    height: 100%;
+    background-color: orchid;
+    float: left;
+}
+
+
+.LinksOnder{
+    width: 30%;
+    height: 100%;
+    background-color: purple;
+    float: left;
+}
+.LinksOnderBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: darkred;
+    float: left;
+}
+.LinksOnderOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+}
+.MiddenOnder{
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+    float: left;
+}
+.MiddenOnderBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: darkred;
+    float: left;
+}
+.MiddenOnderOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+}
+.RechtsOnder{
+    width: 30%;
+    height: 100%;
+    background-color: lime;
+    float: left;
+}
+.RechtsOnderBoven{
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: darkred;
+    float: left;
+}
+.RechtsOnderOnder{
+    height: 50%;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+}
+.TussenVakOnder{
+    width: 5%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+
+
+
+
 
 
 
@@ -126,11 +406,13 @@ li:hover{
 
 .footer{
     margin-bottom: 0px;
-    margin-top: 25%;
+    margin-top: 5%;
     height: 200px;
     border-top: solid  5px #ff8b00;
     border-bottom: solid  20px #bbb;
     background-color: #bbb;
+    float: left;
+    width: 100%
 }
 .MailIcon{
     height: 50px;
