@@ -186,6 +186,14 @@ li:hover{
     width: 100%;
     background-color: #eee;
     float: left;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+.ArnoTekst{
+    font-size: 14px;
+    font-family: monospace;
 }
 .NaamAuteur{
     font-family: cursive;
