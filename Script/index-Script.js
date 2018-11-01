@@ -32,3 +32,8 @@ function ToContact()
 {
     window.location="contact.html";
 }
+function ToSOM()
+{
+    window.location="SportOpMaat.html";
+    console.log('pizza')
+}
