@@ -3,9 +3,9 @@ body{
     background-color: #eee;
     height: 500px;
 }
-.header{     
+.header{
     height: 100px;
-    width: 100%;  
+    width: 100%;
     background-color: #333;
     border-bottom: solid 5px #ff8b00;
     margin-bottom: 0px;
@@ -22,9 +22,9 @@ body{
     transition: 0.5s;
     height: 50px;
     widows: 75px;
-    padding-top: 20px;  
+    padding-top: 20px;
     margin-bottom: 0px;
-    
+
 }
 .Technovium{
     color:#666;
@@ -35,9 +35,9 @@ body{
     transition: 0.5s;
     height: 50px;
     widows: 75px;
-    padding-top: 20px;  
+    padding-top: 20px;
     margin-bottom: 0px;
-    
+
 }
 .Technovium:hover{
     color:#eee;
@@ -61,7 +61,7 @@ body{
 }
 .logo{
     float: left;
-    margin-left: 20px; 
+    margin-left: 20px;
     height: 100px;
     width: 110px;
     margin-top: 0px;
@@ -93,14 +93,14 @@ ul{
 }
 li{
     float: left;
-    list-style-type: none;  
+    list-style-type: none;
     color:#666;
     margin-right: 30px;
     font-size: 22px;
     transition: 0.5s;
     height: 50px;
     width: 55px;
-    padding-top: 30px;  
+    padding-top: 30px;
 }
 li:hover{
     color:#eee;
@@ -162,7 +162,7 @@ li#Contact{
     width: 50px;
     margin-top: 150px;
     margin-left: 25px;
-    float: left; 
+    float: left;
     transition:0.5s;
     border: solid 2px #bbb;
     padding: 5px;
@@ -173,7 +173,7 @@ li#Contact{
     padding: 5px;
 }
 .Copyright{
-    float: right; 
+    float: right;
     margin-bottom: 2px;
     margin-top: 180px;
     margin-right: 5px;
@@ -192,4 +192,24 @@ li#Contact{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.Plaatje img{
+  width: 100%;
+  height: 100%
+}
+h1 {
+  font-family: cursive;
+  color: #333;
+  border-bottom: solid 4px #ff8b00;
+  font-size: 45px;
+  margin-left: 37%;
+  margin-right: 37%;
+}
+span {
+  text-align: center;
+}
+h2 {
+  color: #333;
+  font-family: cursive;;
+  font-size: 40px;
 }
