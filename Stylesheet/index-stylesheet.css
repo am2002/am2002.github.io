@@ -5,6 +5,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    outline: none;
 }
 body{
     margin: 0;
@@ -13,7 +14,6 @@ body{
 img{
     
 }
-
 .header{     
     height: 100px;
     width: 100%;  
@@ -41,11 +41,11 @@ img{
     color:#666;
     float: right;
     margin-right: 40px;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 0px;
     transition: 0.5s;
     height: 50px;
-    widows: 75px;
+    width: 20%;
     padding-top: 20px;  
     margin-bottom: 0px;
     
@@ -81,44 +81,57 @@ img{
     transition: 0.5s;
     border-bottom: solid 5px #ff8b00;
 }
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ccc;
+    color: #333;
+    padding: 16px;
+    font-size: 16px;
+    border: solid 3px #ff8d00;
+    margin-left: 5px;
+}
 
-#Home{
-    background-color: #ff8b00;
-    transition: 0.5s;
-    border-bottom: #ff8b00 solid 5px;
-    padding-left: 5px;
-    padding-right: 10px;
-    color: #fff;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 2.7%;
 }
-#Home:hover{
-    background-color: #ff8b00;
-    opacity: 1;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-}
-ul{
-    float: right;
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
-li{
-    float: left;
-    list-style-type: none;  
-    color:#666;
-    margin-right: 50px;
-    font-size: 22px;
-    transition: 0.5s;
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ddd;
+    cursor: pointer;}
+
+.divContact{
     height: 50px;
-    width: 50px;
-    padding-top: 30px;  
+    width: 100px;
+    float: left;
+    background-color: green;
 }
-li:hover{
-    color:#eee;
-    cursor: pointer;
-    padding-bottom: 0px;
-}
-
-
-
 
 
 
@@ -186,6 +199,42 @@ img{
     height: 1000px;
     background-color: #eee;
     
+}
+.ExtraTop{
+   width: 100%;
+    height: 250px;
+    background-color: #eee;
+    margin-top: 5px;
+    float: left; 
+}
+
+.Arno{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    float:left;
+    margin-right: 25%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.opvulling{
+    width:10%;
+    height: 100%;
+    background-color: green;
+    float:left;
+}
+.Jip{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+    float:left;
+    margin-left: 25%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 5px #ff8d00;
+}
+.Jip:hover{
+    cursor: pointer;
 }
 .Top{
     width: 100%;
@@ -335,11 +384,14 @@ img{
 
 .footer{
     margin-bottom: 0px;
-    margin-top: 3%;
+    margin-top: 20%;
     height: 200px;
-    border-top: solid  5px #ff8b00;
+    width: 100%;
+    border-top: solid 4px #ff8b00;
     border-bottom: solid  20px #bbb;
     background-color: #bbb;
+    float: left;
+        
 }
 .MailIcon{
     height: 50px;
