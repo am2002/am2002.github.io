@@ -277,7 +277,7 @@ textarea{
     }
     
     .Maps{
-        margin-left: 32px;
+        margin-left: 20px;
     }
     .Tekst1{
         display: none;
@@ -300,7 +300,7 @@ textarea{
         border-top: 2px solid #ff8d00;
         border-bottom: 50px solid #ccc;
         margin-bottom: 0px;
-        margin-top: 90%;
+        margin-top: 50%;
     }
     .MailIcon{
         display: none;

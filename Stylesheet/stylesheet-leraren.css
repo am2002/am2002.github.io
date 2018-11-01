@@ -90,7 +90,7 @@ img{
     border-right: 25px solid #ff8d00;
     color: #fff;
 }
-#Leraren:hover{
+#leraren:hover{
     background-color: #ff8b00;
     opacity: 1;
     border-top-left-radius: 15%;
@@ -124,7 +124,7 @@ li:hover{
 
 .footer{
     margin-bottom: 0px;
-    margin-top: 25%;
+    margin-top: 90%;
     height: 200px;
     border-top: solid  5px #ff8b00;
     border-bottom: solid  20px #bbb;
