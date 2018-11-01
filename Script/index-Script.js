@@ -40,3 +40,8 @@ function ToTechnovium()
 {
     window.location="Technovium.html";
 }
+function ToRooster()
+{
+    window.location="rooster.html";
+}
+ 
