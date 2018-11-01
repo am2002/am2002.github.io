@@ -2,6 +2,10 @@ function ToIndex()
 {
     window.location ="loading.html";
 }
+function ToSOM()
+{
+    window.location="SportOpMaat.html";
+}
 
 function hellotest()
 {
