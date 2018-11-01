@@ -23,3 +23,10 @@ function ToContact()
 {
     window.location="contact.html";
 }
+
+function hellotest()
+{
+    var d = document.getElementById("ResponsiveMenu").value;
+    console.log(d);
+     window.location=d+".html";
+}

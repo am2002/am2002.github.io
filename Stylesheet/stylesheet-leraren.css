@@ -181,3 +181,78 @@ li:hover{
     -ms-user-select: none;
     user-select: none;
 }
+
+
+@media only screen and (max-width: 400px){
+    ul li{
+        display: none;
+    }
+    .header{
+        margin-top: 0px;
+        position: absolute;
+    }
+    .banner{
+        display: none;
+    }
+    .DemoImg{
+        display: none;
+    }
+    .DemoImg1{
+        display: none;
+    }
+    .DemoImg2{
+        display: none;
+    }
+    .DemoImg3{
+        display: none;
+    }
+    
+    .Maps{
+        margin-left: 20px;
+    }
+    .Tekst1{
+        display: none;
+    }
+    .Tekst2{
+        display: none;
+    }
+    .Tekst3{
+        display: none;
+    }
+    .Tekst4{
+        display: none;
+    }
+    .Copyright{ 
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    .footer{
+        background-color: #ccc;
+        border-top: 2px solid #ff8d00;
+        border-bottom: 50px solid #ccc;
+        margin-bottom: 0px;
+        margin-top: 50%;
+    }
+    .MailIcon{
+        display: none;
+    }
+    .Twitter{
+        display: none;
+    }
+    .MenuMobile{
+        height: 50px;
+        width: 100px;
+        display: block;
+        background-color: #ccc;
+        border: solid 2px #ff8d00;
+        font-size: 20px;
+        font-family: monospace;
+        color: #333;
+        margin-bottom: 10px;
+        float: clear;
+        margin-top: 20px;
+        padding: 5px;
+        margin-left: 5px;
+        
+    }
+}
