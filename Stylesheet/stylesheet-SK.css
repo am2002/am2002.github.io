@@ -2,7 +2,7 @@ h1 {
   font-family: cursive;
   color: #333;
   font-size: 40px;
-  margin-top: 0%;
+  margin-top: 20%;
   margin-bottom: 0%;
 }
 .SK {
@@ -199,4 +199,16 @@ li:hover{
     border-right: solid 4px #ff8d00;
     border-left: solid 4px #ff8d00;
     border-bottom: solid 4px #ff8d00;
+    border-top: solid 4px #f88d00;
+    border-radius: 50px;
+    float: left;
+    margin-top: 0%;
+    margin-left: 1%;
+}
+.Kutjes img{
+  margin-left:25%;
+  margin-right: 30%;
+  width: 20%;
+  float: left;
+  margin-bottom: 2%;
 }
