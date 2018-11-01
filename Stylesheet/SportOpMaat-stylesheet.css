@@ -1,31 +1,11 @@
-*{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 body{
     margin: 0;
     background-color: #eee;
+    height: 500px;
 }
-img{
-<<<<<<< HEAD
-
-}
-
-.header{
+.header{     
     height: 100px;
-    width: 100%;
-=======
-
-}
-
-.header{
-    height: 100px;
-    width: 100%;
->>>>>>> 954f113593023076f634e84e170e9d229e69d8fa
+    width: 100%;  
     background-color: #333;
     border-bottom: solid 5px #ff8b00;
     margin-bottom: 0px;
@@ -42,15 +22,9 @@ img{
     transition: 0.5s;
     height: 50px;
     widows: 75px;
-<<<<<<< HEAD
-    padding-top: 20px;
+    padding-top: 20px;  
     margin-bottom: 0px;
-
-=======
-    padding-top: 20px;
-    margin-bottom: 0px;
-
->>>>>>> 954f113593023076f634e84e170e9d229e69d8fa
+    
 }
 .Technovium{
     color:#666;
@@ -61,15 +35,9 @@ img{
     transition: 0.5s;
     height: 50px;
     widows: 75px;
-<<<<<<< HEAD
-    padding-top: 20px;
+    padding-top: 20px;  
     margin-bottom: 0px;
-
-=======
-    padding-top: 20px;
-    margin-bottom: 0px;
-
->>>>>>> 954f113593023076f634e84e170e9d229e69d8fa
+    
 }
 .Technovium:hover{
     color:#eee;
@@ -93,11 +61,7 @@ img{
 }
 .logo{
     float: left;
-<<<<<<< HEAD
-    margin-left: 20px;
-=======
-    margin-left: 20px;
->>>>>>> 954f113593023076f634e84e170e9d229e69d8fa
+    margin-left: 20px; 
     height: 100px;
     width: 110px;
     margin-top: 0px;
@@ -107,27 +71,17 @@ img{
     border-bottom: solid 5px #ff8b00;
 }
 
-<<<<<<< HEAD
-#Leraren{
-    background-color: #ff8b00;
-    transition: 0.5s;
-    border-bottom: #ff8b00 solid 5px;
-    border-left: 5px solid #ff8d00;
-    border-right: 25px solid #ff8d00;
-    color: #fff;
-}
-#Leraren:hover{
-=======
 #SOM{
     background-color: #ff8b00;
     transition: 0.5s;
     border-bottom: #ff8b00 solid 5px;
-    padding-left: 5px;
+    border-left: 3px solid #ff8d00;
+    border-right: 3px solid #ff8d00;
     padding-right: 10px;
+    width: 50px;
     color: #fff;
 }
 #SOM:hover{
->>>>>>> 954f113593023076f634e84e170e9d229e69d8fa
     background-color: #ff8b00;
     opacity: 1;
     border-top-left-radius: 15%;
@@ -139,24 +93,41 @@ ul{
 }
 li{
     float: left;
-<<<<<<< HEAD
-    list-style-type: none;
-=======
-    list-style-type: none;
->>>>>>> 954f113593023076f634e84e170e9d229e69d8fa
+    list-style-type: none;  
     color:#666;
-    margin-right: 50px;
+    margin-right: 30px;
     font-size: 22px;
     transition: 0.5s;
     height: 50px;
-    width: 50px;
-    padding-top: 30px;
+    width: 55px;
+    padding-top: 30px;  
 }
 li:hover{
     color:#eee;
     cursor: pointer;
     padding-bottom: 0px;
 }
+li#Contact{
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -165,7 +136,7 @@ li:hover{
 
 .footer{
     margin-bottom: 0px;
-    margin-top: 25%;
+    margin-top: 20%;
     height: 200px;
     border-top: solid  5px #ff8b00;
     border-bottom: solid  20px #bbb;
@@ -191,7 +162,7 @@ li:hover{
     width: 50px;
     margin-top: 150px;
     margin-left: 25px;
-    float: left;
+    float: left; 
     transition:0.5s;
     border: solid 2px #bbb;
     padding: 5px;
@@ -202,7 +173,7 @@ li:hover{
     padding: 5px;
 }
 .Copyright{
-    float: right;
+    float: right; 
     margin-bottom: 2px;
     margin-top: 180px;
     margin-right: 5px;
@@ -221,25 +192,4 @@ li:hover{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-.Plaatje img{
-  width: 100%;
-  height: 100%
-}
-h1 {
-  font-family: cursive;
-  color: #333;
-  border-bottom: solid 4px #ff8b00;
-  font-size: 45px;
-  margin-left: 37%;
-  margin-right: 37%;
-}
-span {
-  text-align: center;
-}
-h2 {
-  color: #333;
-  font-family: cursive;;
-  font-size: 40px;
 }
