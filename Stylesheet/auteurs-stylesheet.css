@@ -135,10 +135,14 @@ li:hover{
 .BovenJip{
     height: 20%;
     width: 20%;
-    background-color: green;
+    background-image: url(../Pictures/Jip.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
     margin-left: 40%;
     margin-right: 40%;
+    border: solid 5px #ff8d00;
+    border-radius: 50%;
 }
 .OnderJip{
     height: 80%;
