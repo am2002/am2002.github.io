@@ -4,6 +4,12 @@ h1 {
   font-size: 40px;
   margin-top: 1%;
   margin-bottom: 1%;
+  transition: 0.5s;
+    
+}
+h1:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff8d00;
 }
 .SK {
   text-align: center;

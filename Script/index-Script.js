@@ -37,7 +37,7 @@ function ToSOM()
     window.location="SportOpMaat.html";
 }
 function ToTechnovium()
-{                               window.location="Technovium.html";
+{                                                        window.location="Technovium.html";
 }
 function ToRooster()
 {

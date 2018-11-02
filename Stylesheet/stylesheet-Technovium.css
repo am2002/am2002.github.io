@@ -214,9 +214,11 @@ button:hover{
   border: solid #f88d00 5px;
   transition: 0.5s;
   border-radius: 50px;
+  margin-top: 50px;
 }
 .TPlaatje:hover{
-border-radius: 25%
+border-radius: 25%;
+
 }
 
 h1{
@@ -228,4 +230,5 @@ h2{
   font-family: cursive;
   margin-left: 10%;
   width: 80%;
+  text-align: center;
 }

@@ -287,6 +287,7 @@ button:hover{
     height: 400px;
     float: left;
     overflow: Hidden;
+    margin-top: 25px;
 }
 .Midden{
     width: 100%;
