@@ -459,6 +459,9 @@ textarea:hover{
     .banner{
         display: none;
     }
+    button{
+        display: none;
+    }
     .DemoImg{
         display: none;
     }
