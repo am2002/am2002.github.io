@@ -1,7 +1,18 @@
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+}
 body{
     margin: 0;
     background-color: #eee;
-    height: 500px;
+}
+img{
+    
 }
 .header{     
     height: 100px;
@@ -30,11 +41,11 @@ body{
     color:#666;
     float: right;
     margin-right: 40px;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 0px;
     transition: 0.5s;
     height: 50px;
-    widows: 75px;
+    width: 20%;
     padding-top: 20px;  
     margin-bottom: 0px;
     
@@ -56,7 +67,7 @@ body{
     font-size: 40px;
     padding-top: 45px;
     color: #eee;
-    padding-right: 0px;
+    padding-right: 8%;
 
 }
 .logo{
@@ -70,45 +81,64 @@ body{
     transition: 0.5s;
     border-bottom: solid 5px #ff8b00;
 }
+/* Dropdown Button */
+.dropbtn {
+    background-color: #ff8d00;
+    color: #eee;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 16px;
+    border: solid 3px #ff8d00;
+    margin-left: 5px;
+    transition: 0.3s;
+}
 
-#Contact{
-    background-color: #ff8b00;
-    transition: 0.5s;
-    border-bottom: #ff8b00 solid 5px;
-    border-left: 3px solid #ff8d00;
-    border-right: 3px solid #ff8d00;
-    padding-right: 10px;
-    width: 50px;
-    color: #fff;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 2.7%;
 }
-#Contact:hover{
-    background-color: #ff8b00;
-    opacity: 1;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-}
-ul{
-    float: right;
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
-li{
-    float: left;
-    list-style-type: none;  
-    color:#666;
-    margin-right: 30px;
-    font-size: 22px;
-    transition: 0.5s;
-    height: 50px;
-    width: 55px;
-    padding-top: 30px;  
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #333;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
-li:hover{
-    color:#eee;
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ff8d00;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #333;
     cursor: pointer;
-    padding-bottom: 0px;
+color: #eee;}
+
+.divContact{
+    height: 50px;
+    width: 100px;
+    float: left;
+    background-color: green;
 }
-li#Contact{
-    width: 60px;
+button:hover{
+    background-color: #333;
+    color: white;
 }
 
 

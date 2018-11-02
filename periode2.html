@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Pictures/RocIcon.jpg">
     <link href="Stylesheet/stylesheet-rooster.css" rel="stylesheet" type="text/css">
-    <title>Rooster</title>
+    <title>Periode 2</title>
     <script src="Script/index-Script.js"></script>
 
 </head>
@@ -13,59 +13,51 @@
     <div class="header">
         <p class="logo"><img src="Pictures/LogoRoc.jpg" class="logo" alt="RocNijmegen" onContextMenu="return false;"></p>
         
-        <p class="Technovium">Technovium - Rooster</p>
+        <p class="Technovium" onclick="ToTechnovium()">Technovium - AO</p>
         <div class="Nav">
-        <button class="dropbtn" style="cursor: pointer;">Home</button>
+            <button class="dropbtn" style="cursor: pointer;" onclick="ToIndex()">Home</button>
         <div class="dropdown">
          <button class="dropbtn">Technovium</button>
         <div class="dropdown-content">
-            <a href="#">Ruimtes</a>
-            <a href="#">Lokalen</a>
+            <a href="Ruimtes.html">Ruimtes</a>
+            <a href="Lokalen.html">Lokalen</a>
             <a href="vakken.html">Vakken</a>
             <a href="leraren.html">Leraren</a>
         </div>
         </div>
         <div class="dropdown">
-         <button class="dropbtn">Rooster</button>
+         <button class="dropbtn" onclick="ToRooster()">Rooster</button>
         <div class="dropdown-content">
-            <a href="#">Periode 1</a>
-            <a href="#">Periode 2</a>
-            <a href="#">Periode 3</a>
-            <a href="#">Periode 4</a>
+            <a href="periode1.html">Periode 1</a>
+            <a href="periode2.html">Periode 2</a>
+            <a href="periode3.html">Periode 3</a>
+            <a href="periode4.html">Periode 4</a>
         </div>
         </div>
         <div class="dropdown">
          <button class="dropbtn">Begeleiding & Ondersteuning</button>
         <div class="dropdown-content">
-            <a href="#">Passend Onderwijs</a>
-            <a href="#">Trajectbegeleiding</a>
-            <a href="#">studieklas</a>
+            <a href="PA.html">Passend Onderwijs</a>
+            <a href="Traject.html">Trajectbegeleiding</a>
+            <a href="SK.html">Studieklas</a>
         </div>
         </div>
         <div class="dropdown">
          <button class="dropbtn">BPV</button>
         <div class="dropdown-content">
-            <a href="#">Algemene informatie</a>
-            <a href="#">Kijk in de keuken 2</a>
+            <a href="Stage.html">Algemene informatie</a>
+            <a href="Keuken.html">Kijk in de keuken</a>
         </div>
         </div>
+            <button class="dropbtn" onclick="ToSOM()" style="cursor: pointer;">SOM</button>
             <div class="dropdown">
         <button class="dropbtn">Contact</button>
         <div class="dropdown-content">
             <a href="contact.html">Contact</a>
-            <a href="auteurs.html">auteurs</a>
+            <a href="auteurs.html">Auteurs</a>
         </div>
             </div>
-            </div>
-        <select class="MenuMobile" onChange="hellotest()" id="ResponsiveMenu">
-            <option value="index" class="DropDown-Menu" >Home</option>
-            <option value="vakken" >Vakken</option>
-            <option value="SportOpMaat">SOM</option>
-            <option value="leraren" >leraren</option>
-            <option value="auteurs" >Auteurs</option>
-            <option value="contact" >Contact</option>
-        </select>
-    </div>
+    </div> 
     
     <div class="Content">
         <div class="TableDiv">
